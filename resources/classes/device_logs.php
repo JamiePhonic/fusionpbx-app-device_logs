@@ -283,7 +283,7 @@ class device_logs {
 			$domain_settings = new settings(['database' => $database, 'domain_uuid' => $domain_uuid]);
 
 			//get the retention days for device log table using 'device' and 'database_retention_days'
-			$device_log_retention_days = $domain_settings->get('device', 'database_retention_days', '');
+			$device_log_retention_days = $domain_settings->get('device_logs', 'database_retention_days', '');
 
 			//ensure we have retention days
 			if (!empty($device_log_retention_days) && is_numeric((int)$device_log_retention_days)) {
