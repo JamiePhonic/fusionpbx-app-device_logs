@@ -35,7 +35,7 @@
 	//default settings
 		$y=0;
 		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "dc9776ee-a2ae-4e6b-821c-dc5a51df1b1f";
-		$apps[$x]['default_settings'][$y]['default_setting_category'] = "device";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "device_logs";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "database_retention_days";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "numeric";
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = "30";
