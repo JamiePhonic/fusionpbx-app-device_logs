@@ -310,4 +310,12 @@ class device_logs {
 		maintenance_service::log_flush();
 	}
 
+	public static function database_maintenance_category(): string {
+		return "device_logs";
+	}
+
+	public static function database_maintenance_subcategory(): string {
+		return "database_retention_days";
+	}
+
 }
