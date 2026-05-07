@@ -39,7 +39,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "database_retention_days";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "numeric";
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = "30";
-		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Number of days maintenance application will retain device logs in the database.";
 
 	//device Logs
